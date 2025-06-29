@@ -1,15 +1,9 @@
 import { cn } from '@/lib/utils';
-import Image from 'next/image';
 
 const Logo = ({ className }: { className?: string }) => (
-  <Image
-    src="/logo.png"
-    alt="Fanal Coque Logo"
-    width={180}
-    height={180}
-    className={cn('h-12 w-auto', className)}
-    priority
-  />
+  <div className={cn('font-headline text-2xl font-bold', className)}>
+    Fanal<span className="text-accent">Coque</span>
+  </div>
 );
 
 export default Logo;
