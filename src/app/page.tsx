@@ -220,13 +220,14 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
               <Button
+                asChild
                 size="lg"
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
               >
-                Doe Agora
+                <Link href="/doacao">Doe Agora</Link>
               </Button>
-              <Button size="lg" variant="secondary">
-                Seja Voluntário
+              <Button asChild size="lg" variant="secondary">
+                <Link href="/contato">Seja Voluntário</Link>
               </Button>
             </div>
           </div>

@@ -73,8 +73,8 @@ const Header = () => {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input type="search" placeholder="Buscar..." className="w-40 pl-9 bg-primary-foreground/10 text-primary-foreground placeholder:text-primary-foreground/60" />
           </div>
-          <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
-            Doe Agora
+          <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <Link href="/doacao">Doe Agora</Link>
           </Button>
         </div>
 
@@ -109,8 +109,8 @@ const Header = () => {
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input type="search" placeholder="Buscar..." className="w-full pl-9" />
                   </div>
-                <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
-                  Doe Agora
+                <Button asChild className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
+                  <Link href="/doacao">Doe Agora</Link>
                 </Button>
               </div>
             </SheetContent>

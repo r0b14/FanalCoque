@@ -5,6 +5,7 @@ export const navLinks = [
   { href: '/projetos', label: 'Projetos' },
   { href: '/parceiros', label: 'Parceiros' },
   { href: '/midia', label: 'Mídia' },
+  { href: '/doacao', label: 'Doação' },
   { href: '/quem-somos', label: 'Quem Somos' },
   { href: '/contato', label: 'Contato' },
 ];
